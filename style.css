@@ -1,0 +1,107 @@
+/* Color Theme Swatches in Hex */
+
+:root {
+    --color1: #307CBF;
+    --color2: #6997BF;
+    --color3: #6BBFB7;
+    --color4: #565902;
+    --color5: #594302;
+}
+
+.nav-item a, .home-color {
+    font-weight: 700;
+    font-size: medium;
+    color: var(--color5) !important;
+}
+
+.merriweather-bold {
+    color: var(--color5);
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card {
+    width: 18rem;
+    margin-top: 15px;
+    background-color: var(--color2) !important;
+}
+
+.card-title {
+    color: var(--color5) !important;
+}
+
+.nav-color-rotas {
+    background-color: var(--color1);
+}
+
+.navbar-toggler {
+    background-color: var(--color1) !important;
+}
+
+.sub-menu {
+    background-color: var(--color3) !important;
+}
+
+.btn-outline-success {
+    background-color: var(--color4) !important;
+}
+
+.formRotas {
+    margin-top: 1.5rem !important;
+    background-color: var(--color4);
+    color: var(--color3);
+    padding-bottom: 2rem;
+}
+
+.contact-form {
+    background-color: var(--color1);
+}
+
+.footerRelatos {
+    font-weight: bold;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: var(--color2);
+    color: var(--color5);
+    margin-top: 1.2rem;
+    margin-bottom: 0;
+}
+
+.relatos-row {
+    padding-left: 0 !important;
+}
+
+.img-fluid {
+    width: 30px;
+    height: 30px;
+}
+
+.img-fluid2 {
+    width: 7rem;
+    height: auto;
+}
+
+
+
+.logoSecundario {
+    width: 9rem;
+    height: auto;
+}
+
+small {
+    text-align: center;
+    color: var(--color5);
+}
+
+small a {
+    text-decoration: none;
+    color: var(--color5);
+}
+
+.title-blog, .title-sobre {
+    color: var(--color5) !important;
+    text-align: center;
+    margin-top: 1.2rem !important;
+    font-size: 1.5rem;
+}

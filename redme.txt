@@ -1,0 +1,150 @@
+A entrega deste exercício consiste em:
+
+
+
+• Criar um projeto utilizando o Bootstrap;
+
+• Criar uma página que contenha os elementos:
+
+• Carousel de imagens;
+
+• Um layout com grid, onde na visão desktop teremos 3 itens por linha, no tablet 2 itens por linha e no smartphone 1 item por linha;
+
+• Inserir um card dentro das colunas, o conteúdo do card fica a seu critério;
+
+• Publique o projeto na Vercel;
+
+• Enviar o link através da plataforma da EBAC.
+
+==========================================================================================================
+Blog de Viagens:
+
+Descrição: Um blog onde você compartilha experiências de viagens, dicas e fotos dos lugares visitados.
+Elementos: Carrossel de fotos de destinos, cards com resumos de posts, 
+menu de abas com categorias de viagens e um formulário para inscritos receberem novidades.
+
+==========================================================================================================
+
+=============================
+Rotas + Relatos ///rotasrelatos.com
+=============================
+
+
+### Cronograma Sugerido:
+
+#### **Semana 1: Planejamento e Estrutura**
+- **Tarefa 1**: Escolher o tema do site e coletar referências visuais (sites semelhantes ou inspiração).
+https://prefiroviajar.com.br/
+https://lalarebelo.com/
+https://blogdeviagens.com.br/
+https://www.segueviagem.com.br/
+
+cores
+
+/* Color Theme Swatches in Hex */
+.Paradise-1-hex { color: #307CBF; }
+.Paradise-2-hex { color: #6997BF; }
+.Paradise-3-hex { color: #6BBFB7; }
+.Paradise-4-hex { color: #565902; }
+.Paradise-5-hex { color: #594302; }
+
+
+
+- **Tarefa 2**: Criar o esqueleto do HTML com o básico da estrutura de navegação.
+navbar
+logo
+sobre
+Hospedagem
+blog
+destinos
+carros
+contato
+
+fonts title
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+fonts do site
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+- **Tarefa 3**: Montar o layout da **navbar** com links ancorados para diferentes seções do site.
+
+#### **Semana 2: Carrossel e Layout Responsivo**
+- **Tarefa 1**: Implementar o carrossel de introdução de imagens no topo da página (usando o componente de **carousel** do Bootstrap).
+- **Tarefa 2**: Definir o layout **grid** para desktop (3 itens por linha), tablet (2 itens por linha) e smartphone (1 item por linha) usando classes de **col-** do Bootstrap.
+- **Tarefa 3**: Estilizar os **cards** que serão exibidos no grid.
+
+#### **Semana 3: Menu de Abas e Formulário**
+- **Tarefa 1**: Criar o **menu de abas** para filtrar ou organizar conteúdo (ex: categorias de produtos ou tipos de posts).
+- **Tarefa 2**: Implementar um **formulário de contato** com campos básicos (nome, e-mail, mensagem) e validação simples.
+- **Tarefa 3**: Ajustar responsividade e testar o site em diferentes resoluções (desktop, tablet, mobile).
+
+#### **Semana 4: Finalização e Revisão**
+- **Tarefa 1**: Testar todos os componentes do site (carrossel, formulário, abas, grid) para garantir que funcionem corretamente.
+- **Tarefa 2**: Melhorar a acessibilidade (usando atributos como `aria-*` em elementos interativos) e fazer ajustes finos no design.
+- **Tarefa 3**: Publicar o projeto no GitHub e em uma plataforma de hospedagem como o **Vercel**.
+
+Esse cronograma segue uma abordagem progressiva, ajudando a implementar um site funcional enquanto você exibe suas habilidades com **Bootstrap**.
